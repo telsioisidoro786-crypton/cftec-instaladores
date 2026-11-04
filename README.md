@@ -22,7 +22,7 @@ de download **grátis** e releases ilimitadas.
 4. **Publish release** → copia o URL do asset (botão direito → Copy link)
 5. No painel CFTEC → Software → ficha com esse URL
 
-No servidor, o modo externoubsere: `POST /api/admin/software` com
+No servidor, o modo externo funciona assim: `POST /api/admin/software` com
 `{ ..., file_url: "https://github.com/telsioisidoro786-crypton/cftec-instaladores/releases/download/.../ficheiro.exe" }`.
 
 Os downloads do portal continuam a contar nos `download_events`
